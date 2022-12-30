@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+  <priority name="NOW or Never">
+    <task>
+      <Description>Finish project report</Description>
+      <Due>5.00pm</Due>
+    </task>
+    <task>
+      <Description>Attend meeting with client</Description>
+      <Due>3.00pm</Due>
+    </task>
+    <task>
+      <Description>Submit job application</Description>
+      <Due>6.00pm</Due>
+    </task>
+  </priority>
+  <priority name="Can Wait until tomorrow">
+    <task>
+      <Description>Write blog post</Description>
+      <Due>9.00am</Due>
+    </task>
+    <task>
+      <Description>Clean living room</Description>
+      <Due>10.00am</Due>
+    </task>
+    <task>
+      <Description>Return library books</Description>
+      <Due>11.00am</Due>
+    </task>
+  </priority>
+  <priority name="Not urgent">
+    <task>
+      <Description>Create budget for next month</Description>
+      <Due>Anytime before next month</Due>
+    </task>
+    <task>
+      <Description>Research vacation destinations</Description>
+      <Due>Anytime</Due>
+    </task>
+    <task>
+      <Description>Update LinkedIn profile</Description>
+      <Due>Anytime</Due>
+    </task>
+  </priority>
+    <priority name="Someday, maybe">
+    <task>
+      <Description>Join a gym</Description>
+      <Due>Anytime</Due>
+    </task>
+    <task>
+      <Description>start a healthy diet</Description>
+      <Due>Anytime</Due>
+    </task>
+    <task>
+      <Description>Learn a new instrument</Description>
+      <Due>Anytime</Due>
+    </task>
+  </priority>
+  <priority name="Why is this even on my To Do list ?">
+    <task>
+      <Description>Take a painting class</Description>
+      <Due>Anytime</Due>
+    </task>
+    <task>
+      <Description>Start practising yoga</Description>
+      <Due>Anytime</Due>
+    </task>
+  </priority>
+</list>
