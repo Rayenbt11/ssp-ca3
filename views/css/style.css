@@ -23,27 +23,27 @@ td:nth-child(1), td:nth-child(3){
 
 [class|="NOW or Never"] {
     /* Style rows with the "NOW or Never" priority */
-    background-color: #b54848;
+    background-color: #ff2e2e;
   }
   
   [class|="Can Wait until tomorrow"] {
     /* Style rows with the "Can Wait until tomorrow" priority */
-    background-color: #594e87;
+    background-color: #ff7d26;
   }
   
   [class|="Not urgent"] {
     /* Style rows with the "Not urgent" priority */
-    background-color: #498b45;
+    background-color: #fff025;
   }
   
   [class|="Someday, maybe"] {
     /* Style rows with the "Someday, maybe" priority */
-    background-color: #dfe368;
+    background-color: #59ff5f;
   }
   
   [class|="Why is this even on my To Do list ?"] {
     /* Style rows with the "Why is this even on my To Do list ?" priority */
-    background-color: #aeffc1;
+    background-color: #57caff;
   }
 
 th {
