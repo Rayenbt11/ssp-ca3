@@ -1,0 +1,56 @@
+body {
+    margin-bottom: 60px;
+}
+
+table {
+    width:100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #ced4da;
+    padding: 0.5rem;
+}
+
+td, th {
+    text-align: left;
+}
+
+td:nth-child(1), td:nth-child(3){
+    text-align: center;
+
+}
+
+[class|="NOW or Never"] {
+    /* Style rows with the "NOW or Never" priority */
+    background-color: #b54848;
+  }
+  
+  [class|="Can Wait until tomorrow"] {
+    /* Style rows with the "Can Wait until tomorrow" priority */
+    background-color: #594e87;
+  }
+  
+  [class|="Not urgent"] {
+    /* Style rows with the "Not urgent" priority */
+    background-color: #498b45;
+  }
+  
+  [class|="Someday, maybe"] {
+    /* Style rows with the "Someday, maybe" priority */
+    background-color: #dfe368;
+  }
+  
+  [class|="Why is this even on my To Do list ?"] {
+    /* Style rows with the "Why is this even on my To Do list ?" priority */
+    background-color: #aeffc1;
+  }
+
+th {
+    font-weight: bold;
+}
+
+.selected {
+    background-color: #dc3545;
+    color: #FFF;
+}
