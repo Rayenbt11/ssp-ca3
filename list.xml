@@ -15,7 +15,7 @@
     </task>
   </priority>
   <priority name="Can Wait until tomorrow">
-    <task>
+    <task done="true">
       <Description>Write blog post</Description>
       <Due>9.00am</Due>
     </task>
