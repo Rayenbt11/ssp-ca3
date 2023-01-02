@@ -58,7 +58,7 @@ router.post('/post/json', function(req, res){
         // Read XML file and convert to JSON
         XMLtoJSON('list.xml', function(err, result) {
             if (err) throw (err);
-            result.list.priority[obj.sec_n].task.push({'description': obj.description, 'Due': obj.Due});
+            result.list.priority[obj.sec_n].task.push({'Description': obj.Description, 'Due': obj.Due});
             console.log(JSON.stringify(result, null, " "));
                     // Convert modified JSON object back to XML and write to file
             JSONtoXML('list.xml', result, function(err){
